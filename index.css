@@ -932,6 +932,39 @@ footer .container{
 }
 
 }
+@media screen and (max-width:380px) {
+    .pic{
+        border-radius: 40%;
+        border: 5px, solid  white;    
+        width: 70px;
+        height: 80px;
+        overflow: hidden;
+        margin-top: -26em;
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+    }
+    .Security{   
+        margin-left: 6em;
+    }
+    .services5 .work{
+        justify-content: center;
+        align-content: center;
+    }
+    .discussion h3{
+        padding-bottom: 5px;
+        padding-top: 2px;
+    }
+    .installation h3{
+        padding-bottom: 5px;
+        padding-top: 2px;
+    }
+    .maintain h3{
+        padding-bottom: 5px;
+        padding-top: 2px;
+    }
+    }
    
    
     
