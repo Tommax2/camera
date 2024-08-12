@@ -875,9 +875,17 @@ footer .container{
     position: absolute;
     top: 100%;
     font-size: 28px;
-    padding-right: 150px;
+    padding-right: 8em;
     margin-top: -2em;
-    margin-left: 4em;
+    margin-left: 5em;
+}
+.discussion,
+.installation,
+.maintain{
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    padding-bottom: 2em;
 }
 .discussion i.bx{
     font-size: 30px;
@@ -955,14 +963,17 @@ footer .container{
     .discussion h3{
         padding-bottom: 5px;
         padding-top: 2px;
+       
     }
     .installation h3{
         padding-bottom: 5px;
         padding-top: 2px;
+        
     }
     .maintain h3{
         padding-bottom: 5px;
         padding-top: 2px;
+       
     }
     }
    
